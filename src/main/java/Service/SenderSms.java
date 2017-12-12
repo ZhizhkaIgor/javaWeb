@@ -24,8 +24,10 @@ public class SenderSms {
 //        sd.getSmsCost("380677256482", "Вы успешно зарегистрированы!", 0, 0, "", "");
 //        sd.getBalance();
       sd.sendSms("380503718360", "Привет: " + hourLeter , 1, "", "", 0, "", "");
+      
       sd.getSmsCost("380503718360", "Test Heroku", 0, 0, "", "");
-      sd.getBalance();
+      
+      System.out.println(sd.getBalance());
 
 	}
 }
